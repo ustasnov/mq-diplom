@@ -640,13 +640,8 @@ h3 {
 }
 
 .footer {
-  margin-top: 65px;
-}
-
-.footer-wrapper {
   width: 1200px;
-  margin: 0 auto;
-  padding: 0 15px;
+  margin: 65px auto 0;
   box-sizing: border-box;
 }
 
@@ -692,14 +687,11 @@ h3 {
 }
 
 .copyright {
+  display: block;
   margin-bottom: 41px;
   font-size: 12px;
   font-weight: 700;
   text-align: center;
   text-decoration: none;
   color: #999999;
-}
-
-.copyright-p {
-  margin-bottom: 41px;
 }

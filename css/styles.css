@@ -90,13 +90,13 @@ body {
 }
 
 .menu__button {
-  width: 1.4em;
+  width: 1.3em;
   height: 1em;  
   border: none;
   padding: 0;
 
   background-color: transparent;
-  font-size: 25px;
+  font-size: 20px;
   position: relative;
   text-indent: -9999px;
   cursor: pointer;
@@ -757,11 +757,47 @@ h3 {
 }
 
 @media (max-width: 1199px) {
-  
+  .header {
+    background-image: url(../images/banner-bg-tablet.jpg);
+  }
+
+  .header-container {
+    box-sizing: border-box;
+    padding: 42px 35px 114px;
+    color: #ffffff;
+  }
+
+  .logo-img {
+    width: 163px;
+    position: relative;
+  }
+
+  .header-title {
+    max-width: 653px;
+    font-size: 40px;
+    line-height: 1.375;
+    margin: 85px auto 0;
+  }
+
   .menu-list {
     display: none;
   }
-/*
+
+  .trends-container {
+    margin-top: 44px;
+  }
+
+  h3 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.6;
+  }
+
+  .section-title {
+    margin-bottom: 15px;
+  }
+
+  /*
   .js-menu_active .menu-list {
     width: 100%;
     box-sizing: border-box;
@@ -775,13 +811,12 @@ h3 {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    z-index: 9999;
+
   }
 
-  .menu__button {
-    color: #65645e;
+  .js-menu_active .menu__button {
     position: fixed;
-    z-index: 9999;
+    z-index: 999;
   }  
 
   .js-menu_active .menu__button:before, .js-menu_active .menu__button:after {
@@ -816,7 +851,8 @@ h3 {
     font-weight: 700;
     color: #ffffff;
   }
-*/  
+
+  */
 }
 
 @media (min-width: 641px) and (max-width: 1199px) and (orientation: portrait) {

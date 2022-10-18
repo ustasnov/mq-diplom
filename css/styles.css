@@ -149,6 +149,26 @@ body {
   margin-top: 59px;
 }
 
+.trends-section-title {
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.6;
+}
+
+.trends-section-title::after {
+  content: "";
+  display: block;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 9px;
+  width: 66px;
+  height: 3px;
+  background: #b59f5b;
+}
+
 .trends {
   display: flex;
   flex-wrap: wrap;
@@ -798,15 +818,13 @@ h3 {
     margin-top: 44px;
   }
 
+  /*
   h3 {
     font-size: 18px;
     font-weight: 700;
     line-height: 1.6;
   }
-
-  .section-title {
-    margin-bottom: 15px;
-  }
+  */
 
   .trend {
     width: calc(100% / 2 - 2px);
@@ -843,12 +861,46 @@ h3 {
   }
 
   .page {
+    width: 100%;
     margin: 45px auto 0;
+    padding: 0 35px;
+  }
+
+  .post-list {
+    max-width: 824px;
   }
 
   .post {
     display: flex;
     flex-direction: column;
+  }
+
+  .post-content {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+
+  .post-img {
+    width: 100%;
+    height: 100%;
+  }
+
+  h2 {
+    font-size: 17px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+
+  .post-date-author {
+    margin-top: 30px;
+  }
+
+  .post-text {
+    margin-top: 30px;
+  }
+
+  .side-bar {
+    margin-left: 35px;
   }
 
   /*
